@@ -1,3 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Cuprum:wght@700&family=Montserrat:wght@100;400;700;800&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+@layer utilities {
+  @variants responsive {
+    .clip-poly-outer {
+      clip-path: polygon(0% 0%, 75% 0, 100% 33%, 80% 100%, 0% 100%);
+    }
+    .clip-poly-inner {
+      clip-path: polygon(0% 0%, 74% 0, 100% 34%, 80% 100%, 0% 100%);
+    }
+  }
+}
