@@ -21,11 +21,15 @@ module.exports = {
         red: "#990000",
         white: "#ffffff",
         lightgray: "#dddddd",
+        darkgray: "#777777",
         purple: {
           DEFAULT: "#e6e6ff",
           dark: "#cdcde6",
         },
-        yellow: "#ffd900",
+        yellow: {
+          DEFAULT: "#ffd900",
+          light: "#FFFCE8",
+        },
       },
       minHeight: {
         "10": "30vh",
@@ -41,8 +45,19 @@ module.exports = {
         inherit: "inherit",
         appbar: appBarHeight,
       },
-      minWidth: { "1/2": "50%", "1/3": "30%", "2/5": "40%" },
-      maxWidth: { hero: "35rem", "1/2": "50%" },
+      maxHeight: {
+        "1/4": "25%",
+        "1/2": "50%",
+        "3/4": "75%",
+      },
+      minWidth: { "1/2": "50%", "1/3": "30%", "2/5": "40%", "50": "50vw" },
+      maxWidth: {
+        hero: "35rem",
+        "1/2": "50%",
+        "1/3": "33.33333%",
+        "1/4": "25%",
+        "3/4": "75%",
+      },
       fontFamily: {
         title: ["Cuprum", "sans-serif"],
         compact: ["Barlow Condensed", "sans-serif"],
@@ -50,6 +65,9 @@ module.exports = {
       },
       padding: {
         appbar: appBarHeight,
+        pc: "53.9562924%",
+        phone: "163.474026%",
+        quadro: "76.57082%",
       },
       margin: {
         "2em": "2em",
@@ -75,7 +93,7 @@ module.exports = {
     },
   },
   variants: {
-    extend: { backgroundColor: ["active"] },
+    extend: { backgroundColor: ["active"], opacity: ["disabled"] },
   },
   plugins: [],
 };
