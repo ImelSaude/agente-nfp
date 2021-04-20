@@ -1,12 +1,12 @@
 import React from "react";
 
-export default function Button({ onClick, children }) {
+export default function Button({ children }) {
   return (
-    <button
-      onClick={onClick}
+    <a
+      href="#como-doar"
       className="md:self-start drop-shadow-lg bg-yellow p-3 rounded-lg uppercase font-bold"
     >
       {children}
-    </button>
+    </a>
   );
 }

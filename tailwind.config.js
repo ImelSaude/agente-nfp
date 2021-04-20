@@ -18,13 +18,22 @@ module.exports = {
       colors: {
         lighttransparent: "rgba(255, 255, 255, 0.64)",
         darktransparent: "rgba(0, 0, 0, 0.64)",
-        red: "#990000",
+        red: {
+          DEFAULT: "#990000",
+          light: "#ffe6e6",
+        },
         white: "#ffffff",
-        lightgray: "#dddddd",
-        darkgray: "#777777",
+        gray: {
+          DEFAULT: "#aaaaaa",
+          light: "#dddddd",
+          lighter: "#fafafa",
+          dark: "#777777",
+          darker: "#333333",
+        },
         purple: {
           DEFAULT: "#e6e6ff",
           dark: "#cdcde6",
+          darker: "#650131",
         },
         yellow: {
           DEFAULT: "#ffd900",
@@ -32,9 +41,10 @@ module.exports = {
         },
       },
       minHeight: {
-        "10": "30vh",
-        "20": "30vh",
+        "10": "10vh",
+        "20": "20vh",
         "30": "30vh",
+        "40": "40vh",
         "50": "50vh",
         "60": "60vh",
         "3em": "3em",
@@ -65,9 +75,11 @@ module.exports = {
       },
       padding: {
         appbar: appBarHeight,
+        full: "100%",
         pc: "53.9562924%",
         phone: "163.474026%",
         quadro: "76.57082%",
+        video: "56.25%",
       },
       margin: {
         "2em": "2em",

@@ -19,13 +19,13 @@ export default function Tab({ variant, slideDeck }) {
   }, [variant]);
 
   return (
-    <div className="font-body text-lg leading-loose">
+    <div className="font-body text-lg md:text-xl leading-loose">
       <Title
         number={currentSlideIdx + 1}
         title={currentSlide.titulo}
         icon={currentSlide.icone}
       />
-      <div className="flex content-center mt-2 bg-yellow-light py-4">
+      <div className="flex content-center mt-2 bg-gradient-to-br from-yellow-light to-gray-lighter py-4 min-h-40">
         <button
           onClick={() => setCurrentSlideIdx((prevSlideIdx) => prevSlideIdx - 1)}
           disabled={currentSlideIdx === 0}
@@ -33,7 +33,7 @@ export default function Tab({ variant, slideDeck }) {
         >
           <LeftArrow />
         </button>
-        <div className="flex flex-grow flex-wrap justify-evenly content-center">
+        <div className="flex flex-grow flex-wrap justify-evenly">
           <button
             onClick={() => setShowFullImg(true)}
             className={`p-0 self-stretch focus:outline-none ${
@@ -52,7 +52,7 @@ export default function Tab({ variant, slideDeck }) {
                   // phone: 616x1007
                   // laptop: 1327x716}
                   src={slideDecks[variant][currentSlideIdx].img}
-                  loading="eager"
+                  priority={true}
                   layout="fill"
                   objectFit="cover"
                 />

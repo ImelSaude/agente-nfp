@@ -11,7 +11,7 @@ export default function Hero() {
       className="pt-appbar bg-gradient-to-t md:bg-gradient-to-r from-red via-red to-yellow"
     >
       <div className="flex flex-col-reverse md:flex-row p-8 md:p-12">
-        <div className="flex flex-col justify-between md:pr-8 pt-8 md:pt-0">
+        <div className="flex flex-col justify-between md:pr-8 pt-8 md:pt-0 m-auto">
           <HeroTitle />
           <TextBlock />
           <Button>Doe suas notas fiscais</Button>

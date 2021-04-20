@@ -17,7 +17,7 @@ export default {
       texto: (
         <>
           <p className="font-bold">Acesse sua conta com seu CPF e senha</p>
-          <p className="text-darkgray">
+          <p className="text-gray-dark">
             Se não tiver uma conta, você pode criá-la em{" "}
             <br className="hidden md:inline" />
             <a
@@ -52,7 +52,7 @@ export default {
             No campo <span className="font-bold">Período</span>, selecione o
             prazo pelo qual deseja doar suas notas.
           </p>
-          <p className="text-darkgray">
+          <p className="text-gray-dark">
             Após esse prazo, você precisará refazer esse passo-a-passo caso
             queira continuar doando.
           </p>
@@ -110,28 +110,25 @@ export default {
             a doação nas suas redes e vamos juntos ser{" "}
             <span className="font-bold">agentes de transformação!</span>
           </p>
-          <div className="flex justify-center">
+          <div className="flex flex-wrap justify-center">
             <FacebookShareButton
               url="https://doesuanota.org.br"
-              className="mx-2"
+              className="m-2"
             >
               <FacebookIcon size={32} round />
             </FacebookShareButton>
             <TelegramShareButton
               url="https://doesuanota.org.br"
-              className="mx-2"
+              className="m-2"
             >
               <TelegramIcon size={32} round />
             </TelegramShareButton>
-            <TwitterShareButton
-              url="https://doesuanota.org.br"
-              className="mx-2"
-            >
+            <TwitterShareButton url="https://doesuanota.org.br" className="m-2">
               <TwitterIcon size={32} round />
             </TwitterShareButton>
             <WhatsappShareButton
               url="https://doesuanota.org.br"
-              className="mx-2"
+              className="m-2"
             >
               <WhatsappIcon size={32} round />
             </WhatsappShareButton>
@@ -203,7 +200,7 @@ export default {
             No campo <span className="font-bold">Período</span>, selecione o
             prazo pelo qual deseja doar suas notas.
           </p>
-          <p className="text-darkgray">
+          <p className="text-gray-dark">
             Após esse prazo, você precisará refazer esse passo-a-passo caso
             queira continuar doando. Se escolher{" "}
             <span className="bg-red text-white font-bold p-1">
@@ -243,28 +240,25 @@ export default {
             a doação nas suas redes e vamos juntos ser{" "}
             <span className="font-bold">agentes de transformação!</span>
           </p>
-          <div className="flex justify-center">
+          <div className="flex flex-wrap justify-center">
             <FacebookShareButton
               url="https://doesuanota.org.br"
-              className="mx-2"
+              className="m-2"
             >
               <FacebookIcon size={32} round />
             </FacebookShareButton>
             <TelegramShareButton
               url="https://doesuanota.org.br"
-              className="mx-2"
+              className="m-2"
             >
               <TelegramIcon size={32} round />
             </TelegramShareButton>
-            <TwitterShareButton
-              url="https://doesuanota.org.br"
-              className="mx-2"
-            >
+            <TwitterShareButton url="https://doesuanota.org.br" className="m-2">
               <TwitterIcon size={32} round />
             </TwitterShareButton>
             <WhatsappShareButton
               url="https://doesuanota.org.br"
-              className="mx-2"
+              className="m-2"
             >
               <WhatsappIcon size={32} round />
             </WhatsappShareButton>
