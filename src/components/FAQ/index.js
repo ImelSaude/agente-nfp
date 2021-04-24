@@ -1,10 +1,6 @@
 import React from "react";
+import Accordion from "../Accordion";
 
 export default function FAQ({ pergunta, children }) {
-  return (
-    <div className="mb-8">
-      <h5 className="font-bold">{pergunta}</h5>
-      {children}
-    </div>
-  );
+  return <Accordion title={pergunta}>{children}</Accordion>;
 }

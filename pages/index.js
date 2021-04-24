@@ -17,7 +17,25 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       <Head>
-        <title>Agente - Campanha NFP</title>
+        <meta
+          property="og:title"
+          content="Transforme seus gastos em impacto social"
+        />
+        <meta
+          property="og:description"
+          content="É simples, é rápido, não custa nada para você e ajuda muita gente! Doe suas notas fiscais."
+        />
+        <meta
+          property="og:image"
+          content="https://doesuanota.org.br/images/social-img.png"
+        />
+        <meta property="og:url" content="https://doesuanota.org.br" />
+        <meta
+          property="og:site_name"
+          content="Doe Suas Notas Fiscais - Agente"
+        />
+
+        <title>Doe Suas Notas Fiscais - Agente</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -70,12 +88,15 @@ export default function Home() {
             <h3 className="text-3xl md:text-6xl mb-4 md:mb-8 font-bold tracking-wide text-yellow uppercase font-title">
               Dúvidas ou problemas?
             </h3>
-            <p>Tenho dificuldade com tecnologia. Será que vou conseguir?</p>
-            <p>Gasto muito pouco. Vale a pena mesmo assim?</p>
-            <p>Quero fazer a doação, mas sempre me esqueço. O que fazer?</p>
+            <p>"Tenho dificuldade com tecnologia. Será que vou conseguir?"</p>
+            <p>"Gasto muito pouco. Vale a pena mesmo assim?"</p>
+            <p>"Quero fazer a doação, mas sempre me esqueço. O que fazer?"</p>
           </div>
           <div className="w-full md:w-1/2 p-8 pt-0 pb-12 md:p-12">
-            <a href="https://www.youtube.com/watch?v=UjjUg1gHlJw">
+            <a
+              href="https://www.youtube.com/watch?v=UjjUg1gHlJw"
+              target="_blank"
+            >
               <h5 className="text-xl md:text-3xl mb-2 text-center">
                 Assista ao vídeo
               </h5>
@@ -269,7 +290,11 @@ export default function Home() {
             <p>
               Desde 2012, a AGENTE apresenta as demonstrações financeiras com os
               resultados do ano. Você pode conferi-las no{" "}
-              <a className="underline" href="https://agente.org.br/">
+              <a
+                className="underline"
+                href="https://agente.org.br/"
+                target="_blank"
+              >
                 nosso site.
               </a>
             </p>
@@ -277,7 +302,11 @@ export default function Home() {
           <FAQ pergunta="9. Ainda ficou alguma dúvida?">
             <p>
               Escreva para{" "}
-              <a className="underline" href="mailto:comunicacao@agente.org.br">
+              <a
+                className="underline"
+                href="mailto:comunicacao@agente.org.br"
+                target="_blank"
+              >
                 comunicacao@agente.org.br
               </a>{" "}
               e teremos o maior prazer em falar com você!
@@ -294,16 +323,19 @@ export default function Home() {
               fgColor="white"
               className="rounded-full border-2 border-white m-2"
               url="https://www.facebook.com/curta.agente/"
+              target="_blank"
             />
             <SocialIcon
               bgColor="transparent"
               fgColor="white"
               className="rounded-full border-2 border-white m-2"
               url="https://www.instagram.com/instaagente/"
+              target="_blank"
             />
             <a
               href="https://agente.org.br/"
               className="social-icon rounded-full border-2 border-white flex flex-col justify-center text-white text-xs relative p-2 m-2"
+              target="_blank"
             >
               WWW
             </a>
@@ -312,6 +344,7 @@ export default function Home() {
               fgColor="white"
               className="rounded-full border-2 border-white m-2"
               url="mailto:comunicacao@agente.org.br"
+              target="_blank"
             />
           </div>
         </section>

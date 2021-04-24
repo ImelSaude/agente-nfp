@@ -37,6 +37,7 @@ module.exports = {
         },
         yellow: {
           DEFAULT: "#ffd900",
+          almost: "#fdd700",
           light: "#FFFCE8",
         },
       },
@@ -60,7 +61,13 @@ module.exports = {
         "1/2": "50%",
         "3/4": "75%",
       },
-      minWidth: { "1/2": "50%", "1/3": "30%", "2/5": "40%", "50": "50vw" },
+      minWidth: {
+        "1": "1rem",
+        "1/2": "50%",
+        "1/3": "30%",
+        "2/5": "40%",
+        "50": "50vw",
+      },
       maxWidth: {
         hero: "35rem",
         "1/2": "50%",

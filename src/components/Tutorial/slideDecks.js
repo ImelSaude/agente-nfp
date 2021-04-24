@@ -24,6 +24,7 @@ export default {
               href="https://www.nfp.fazenda.sp.gov.br/login"
               className="underline"
               style={{ lineBreak: "anywhere" }}
+              target="_blank"
             >
               www.nfp.fazenda.sp.gov.br/login
             </a>
@@ -114,21 +115,28 @@ export default {
             <FacebookShareButton
               url="https://doesuanota.org.br"
               className="m-2"
+              quote="Acabei de doar as notas fiscais para a AGENTE. Doe também e transforme seus gastos em impacto social!"
             >
               <FacebookIcon size={32} round />
             </FacebookShareButton>
             <TelegramShareButton
               url="https://doesuanota.org.br"
               className="m-2"
+              title="Acabei de doar as notas fiscais para a AGENTE. Doe também e transforme seus gastos em impacto social!"
             >
               <TelegramIcon size={32} round />
             </TelegramShareButton>
-            <TwitterShareButton url="https://doesuanota.org.br" className="m-2">
+            <TwitterShareButton
+              url="https://doesuanota.org.br"
+              className="m-2"
+              title="Acabei de doar as notas fiscais para a AGENTE. Doe também e transforme seus gastos em impacto social!"
+            >
               <TwitterIcon size={32} round />
             </TwitterShareButton>
             <WhatsappShareButton
               url="https://doesuanota.org.br"
               className="m-2"
+              title="Acabei de doar as notas fiscais para a AGENTE. Doe também e transforme seus gastos em impacto social!"
             >
               <WhatsappIcon size={32} round />
             </WhatsappShareButton>
@@ -150,6 +158,7 @@ export default {
               href="https://www.nfp.fazenda.sp.gov.br/login"
               className="underline"
               style={{ lineBreak: "anywhere" }}
+              target="_blank"
             >
               www.nfp.fazenda.sp.gov.br/login
             </a>
@@ -244,21 +253,28 @@ export default {
             <FacebookShareButton
               url="https://doesuanota.org.br"
               className="m-2"
+              quote="Acabei de doar as notas fiscais para a AGENTE. Doe também e transforme seus gastos em impacto social!"
             >
               <FacebookIcon size={32} round />
             </FacebookShareButton>
             <TelegramShareButton
               url="https://doesuanota.org.br"
               className="m-2"
+              title="Acabei de doar as notas fiscais para a AGENTE. Doe também e transforme seus gastos em impacto social!"
             >
               <TelegramIcon size={32} round />
             </TelegramShareButton>
-            <TwitterShareButton url="https://doesuanota.org.br" className="m-2">
+            <TwitterShareButton
+              url="https://doesuanota.org.br"
+              className="m-2"
+              title="Acabei de doar as notas fiscais para a AGENTE. Doe também e transforme seus gastos em impacto social!"
+            >
               <TwitterIcon size={32} round />
             </TwitterShareButton>
             <WhatsappShareButton
               url="https://doesuanota.org.br"
               className="m-2"
+              title="Acabei de doar as notas fiscais para a AGENTE. Doe também e transforme seus gastos em impacto social!"
             >
               <WhatsappIcon size={32} round />
             </WhatsappShareButton>
