@@ -103,6 +103,19 @@ export default {
     },
     {
       img: "/images/cel6.png",
+      titulo: "Doador restrito",
+      texto: (
+        <>
+          <p>
+            Se você acabou de criar a conta ou nunca utilizou os créditos, você
+            precisará fazer uma transferência para sua conta bancária antes das
+            doações irem para a AGENTE.
+          </p>
+        </>
+      ),
+    },
+    {
+      img: "/images/cel7.png",
       titulo: "Compartilhe essa ideia!",
       texto: (
         <>
@@ -241,6 +254,19 @@ export default {
     },
     {
       img: "/images/pc5.png",
+      titulo: "Doador restrito",
+      texto: (
+        <>
+          <p>
+            Se você acabou de criar a conta ou nunca utilizou os créditos, você
+            precisará fazer uma transferência para sua conta bancária antes das
+            doações irem para a AGENTE.
+          </p>
+        </>
+      ),
+    },
+    {
+      img: "/images/pc6.png",
       titulo: "Compartilhe essa ideia!",
       texto: (
         <>

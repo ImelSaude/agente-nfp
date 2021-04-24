@@ -59,28 +59,60 @@ export default function Home() {
           />
         </section>
         <section className="flex flex-col-reverse md:flex-row">
-          <div className="bg-yellow p-8 md:p-12 flex-grow relative flex">
-            <div className="max-w-1/2 md:max-w-3/4 max-h-full flex flex-col justify-center text-normal md:text-xl">
+          <div className="bg-yellow p-8 md:p-12 flex-grow flex items-center relative">
+            <div className="max-w-2/3 md:max-w-3/4 max-h-full h-full flex flex-col justify-center text-normal md:text-xl">
               <p>Não se esqueça de pedir o CPF quando fizer qualquer compra.</p>
-              <p>Se não, de nada vai adiantar.</p>
+              <p>Se não, de nada vai adiantar 😉</p>
               <p>
                 E já deixe o CPF salvo nos aplicativos (iFood, Rappi, Uber,
                 etc.)
               </p>
             </div>
-            <div className="max-h-3/4 max-w-1/2 md:max-w-1/4 absolute right-0 bottom-0 flex p-4">
-              <div className="relative">
-                <img src="/images/pessoa.png" className="max-h-full ml-auto" />
-              </div>
+            <div
+              className="h-full min-h-full max-h-3/4 w-full max-w-1/3 md:max-w-1/4 flex-grow bg-contain bg-no-repeat bg-right-bottom block"
+              style={{ backgroundImage: "url('/images/pessoa.png')" }}
+            >
+              <img src="/images/pessoa.png" className="md:hidden" />
             </div>
           </div>
-          <div className="w-full md:max-w-1/2 md:w-1/2 flex-grow">
+          <div className="w-full md:min-w-1/2 md:max-w-1/2 md:w-1/2 flex-grow flex items-end bg-yellow-light">
             <div className="w-full pt-quadro relative">
               <img
                 src="/images/quadro1-amarelo.png"
                 className="absolute inset-0"
               />
             </div>
+          </div>
+        </section>
+        <section className="flex flex-col-reverse md:flex-row">
+          <div className="p-8 lg:p-12 flex-grow min-h-12 bg-yellow-light flex flex-col lg:flex-row items-center justify-center md:max-w-1/2">
+            <div className="max-w-1/3 pr-8 mb-4 lg:mb-0">
+              <img src="/images/alert.png" />
+            </div>
+            <div className="flex-grow text-normal md:text-xl">
+              <p>
+                Se você acabou de criar a conta ou nunca utilizou os créditos,
+                você precisará fazer uma transferência para sua conta bancária
+                antes das doações irem para a AGENTE.
+              </p>
+              <p>
+                Para saber mais,{" "}
+                <a
+                  href="https://www.nfpnotafiscalpaulista.com/como-transferir-o-dinheiro-da-nota-fiscal-paulista/"
+                  className="underline"
+                >
+                  clique aqui
+                </a>
+                .
+              </p>
+            </div>
+          </div>
+          <div className="p-8 md:p-12 md:pt-0 flex-grow min-h-12 bg-gray-darky">
+            <h5 className="text-xl md:text-3xl mb-2 text-center text-white">
+              Quando a conta é restrita, aparece a mensagem abaixo após a doação
+              automática das notas
+            </h5>
+            <img src="/images/doador-restrito.png" />
           </div>
         </section>
         <section className="flex flex-col md:flex-row bg-gray-darker text-white text-center md:text-left md:mt-16">
@@ -207,7 +239,7 @@ export default function Home() {
           </h3>
           <FAQ pergunta="1. O que é o programa da Nota Fiscal Paulista?">
             <p>
-              R: É um programa de estimulo à cidadania fiscal no Estado de São
+              R: É um programa de estímulo à cidadania fiscal no Estado de São
               Paulo, que tem por objetivo estimular os consumidores a exigirem a
               entrega do documento fiscal na hora da compra. Além disso, visa
               gerar créditos aos consumidores, aos cidadãos e às empresas do

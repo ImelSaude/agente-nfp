@@ -28,6 +28,7 @@ module.exports = {
           light: "#dddddd",
           lighter: "#fafafa",
           dark: "#777777",
+          darky: "#4D4D4D",
           darker: "#333333",
         },
         purple: {
@@ -87,6 +88,7 @@ module.exports = {
         phone: "163.474026%",
         quadro: "76.57082%",
         video: "56.25%",
+        "1/2": "50%",
       },
       margin: {
         "2em": "2em",
