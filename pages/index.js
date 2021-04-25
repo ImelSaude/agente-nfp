@@ -78,13 +78,13 @@ export default function Home() {
           <div className="w-full md:min-w-1/2 md:max-w-1/2 md:w-1/2 flex-grow flex items-end bg-yellow-light">
             <div className="w-full pt-quadro relative">
               <img
-                src="/images/quadro1-amarelo.png"
-                className="absolute inset-0"
+                src="/images/quadro1-amarelo-chao.png"
+                className="absolute bottom-0 right-0 left-0"
               />
             </div>
           </div>
         </section>
-        <section className="flex flex-col-reverse md:flex-row">
+        <section className="flex flex-col md:flex-row">
           <div className="p-8 lg:p-12 flex-grow min-h-12 bg-yellow-light flex flex-col lg:flex-row items-center justify-center md:max-w-1/2">
             <div className="max-w-1/3 pr-8 mb-4 lg:mb-0">
               <img src="/images/alert.png" />
@@ -107,7 +107,7 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="p-8 md:p-12 md:pt-0 flex-grow min-h-12 bg-gray-darky">
+          <div className="p-8 md:p-12 flex-grow min-h-12 bg-gray-darky">
             <h5 className="text-xl md:text-3xl mb-2 text-center text-white">
               Quando a conta é restrita, aparece a mensagem abaixo após a doação
               automática das notas
