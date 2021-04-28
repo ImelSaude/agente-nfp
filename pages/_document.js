@@ -12,15 +12,16 @@ class MyDocument extends Document {
         <Head>
           <script
             async
-            src="https://www.googletagmanager.com/gtag/js?id=G-2Z42H5C9FX"
+            src="https://www.googletagmanager.com/gtag/js?id=G-R2L1F9D758"
           ></script>
           <script
             dangerouslySetInnerHTML={{
               __html: `
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){window.dataLayer.push(arguments)}
-        gtag("js", new Date());
-        gtag('config', 'G-2Z42H5C9FX');
+              window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-R2L1F9D758');
     `,
             }}
           ></script>
